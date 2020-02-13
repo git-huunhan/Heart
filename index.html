@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <embed src="mylove.mp3" autostart=true loop=true hidden=true>
+    <title>Heart | 14-02-2020</title>
+</head>
+<body>
+    <div class="heart heart-bg"></div>
+    <a href="#SectionName" onclick="ShowAndHide()" class="heart heart-main"></a>
+    <div>
+        <div id="SectionName" style="display:none" class="text">Loveeee youuuu, Quynh Huong!!!<br>Here's a little gift for youuu!!!<br>14 - 02 - 2020</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+        function ShowAndHide() {
+            var x = document.getElementById('SectionName');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
+    
+</body>
+</html>
